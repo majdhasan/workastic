@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,49 +14,68 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">worktastic</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Prices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Download</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <section id="stage">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">worktastic</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-auto">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="stage row">
+        <div class="col-md-6">
+          <h3 class="moto">How may I assist you?</h3>
 
-  <main>
-    <div class="stage row">
-      <div class="col-md-6">
-        <h3 class="moto">How may I assist you?</h3>
+          <button type="button" class="download-btn btn btn-secondary btn-lg"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="download-btn btn btn-secondary btn-lg"><i class="fab fa-google-play"></i> Download</button>
 
-        <button type="button" class="download-btn btn btn-primary btn-lg"><i class="fab fa-apple"></i> Download</button>
-        <button type="button" class="download-btn btn btn-secondary btn-lg"><i class="fab fa-google-play"></i> Download</button>
-
-      </div>
-      <div class="col-md-6 ml-auto">
-        <img class="stage-image" src="images/iphone.png" alt="">
+        </div>
+        <div class="col-md-6 ml-auto">
+          <img class="stage-image" src="images/iphone.png" alt="">
+        </div>
       </div>
     </div>
-    <footer class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2020 workastic. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-  </main>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="skills">
+          <h1 class="stories-title">Read what people have to say about worktastic</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="prices">
+
+</section>
+
+
+
+  <footer class="footer">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2020 workastic. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
