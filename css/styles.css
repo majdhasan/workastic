@@ -1,0 +1,21 @@
+/* Stage */
+
+.stage{
+  background-color: #4e89ae;
+  padding: 5% 5%;
+}
+
+
+.moto{
+  font-size: 3.5rem;
+  color: white;
+  max-width: 70%;
+}
+
+.stage-image{
+  max-width: 500px;
+}
+
+.download-btn{
+  margin-top: 5%;
+}
