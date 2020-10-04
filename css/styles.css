@@ -54,3 +54,25 @@
 .stories-title {
   margin: 5% 0 2% 0;
 }
+
+
+#prices{
+  text-align: center;
+}
+
+.card-deck{
+  margin: 5% 5%;
+
+}
+
+.prices{
+  margin: 5% auto;
+}
+
+.price-header{
+  color: #fff;
+}
+
+.card-header{
+    background-color: #ed6663;
+}
