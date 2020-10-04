@@ -1,21 +1,36 @@
-/* Stage */
+/* Navbar */
+.navbar {
+  background-color: #4e89ae;
+  color: white;
+}
 
-.stage{
+.navbar-brand {
+  color: white;
+  font-size: 2rem;
+  margin-left: 2%;
+}
+.nav-link{
+  color: inherit;
+}
+
+/* Stage */
+.stage {
   background-color: #4e89ae;
   padding: 5% 5%;
 }
 
-
-.moto{
-  font-size: 3.5rem;
+.moto {
+  font-size: 4.5rem;
+  font-weight: bold;
   color: white;
   max-width: 70%;
 }
 
-.stage-image{
+.stage-image {
   max-width: 500px;
 }
 
-.download-btn{
+.download-btn {
   margin-top: 5%;
+  background-color: #ed6663;
 }
